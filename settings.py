@@ -1,2 +1,2 @@
 global title
-title = "Test var"
+title = "Final Sprint"
