@@ -1,4 +1,4 @@
-import var
+import settings
 from flask import Flask
 from flask_wtf.csrf import CSRFProtect
 
@@ -8,7 +8,7 @@ csrf = CSRFProtect(app)
 
 @app.route("/")
 def pagina_inicial():
-    return title
+    return settings.title
 
 
 if __name__ == '__main__':
