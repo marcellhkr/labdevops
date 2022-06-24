@@ -1,3 +1,2 @@
-def init():
-    global title
-    title = "Test var"
+global title
+title = "Test var"
