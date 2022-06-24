@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from app import app
 import unittest
+import var
 
 class Test(unittest.TestCase):
     def setUp(self):
@@ -16,4 +17,4 @@ class Test(unittest.TestCase):
 
     def test_conteudo(self):
         # verifica o retorno do conteudo da pagina
-        self.assertEqual(self.result.data.decode('utf-8'), "Hello World. Olá mundo")
+        self.assertEqual(self.result.data.decode('utf-8'), title)
